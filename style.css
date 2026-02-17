@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #8f9b7a;
+    color: #3f4a3c;
+    line-height: 1.6;
+}
+
+/* ---------- HEADER ---------- */
+
+.header {
+    background: #f3efe6;
+    padding-bottom: 60px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 25px 0;
+    gap: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #5a6650;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #4f5b46;
+}
+
+.hero {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.hero-images {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-images img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    font-size: 15px;
+    color: #6b7564;
+}
+
+.btn {
+    background: #9aa87d;
+    padding: 10px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+/* ---------- INCLUDED SECTION ---------- */
+
+.included {
+    background: #8f9b7a;
+    padding: 90px 10%;
+    text-align: center;
+    color: white;
+}
+
+.included h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.included-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
+.included-card {
+    width: 100%;
+    max-width: 250px;
+}
+
+.included-card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 22px;
+    display: block;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.included-card p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* ---------- FOOTER ---------- */
+
+.footer {
+    background: #4f5b46;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+}
